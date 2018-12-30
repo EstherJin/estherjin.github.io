@@ -1,0 +1,85 @@
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-left: 0px;
+ margin-bottom: 0px;
+}
+header {
+  text-align: center;
+  font-family: "Courier New";
+  /*I wanted to have some cool fonts but i realized I had to make it web-friendly*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mainbody {
+  color: black;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Georgia";
+  /*I hope this font is okay*/
+  font-weight: normal;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-family: "Georgia";
+  margin-bottom: 10px;
+}
+h5 {
+  margin-top: 0px;
+  font-family: "Georgia";
+  margin-bottom: 0px;
+}
+.background {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f2f1f4;
+}
+.mainbody {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: white;
+}
+p {
+  font-family: "Courier New";
+}
+.image {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.credit {
+  margin-right: 20px;
+  text-align: right;
+}
+.myface{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 40%;
+  height: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.aboutmetext {
+  width: 40%;
+  height: 40%;
+}
+.aboutme{
+  display: flex;
+  flex-direction: row;
+}
+.resumetext{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ul {
+  font-family: "Courier New";
+}
