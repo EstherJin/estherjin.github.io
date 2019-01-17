@@ -83,3 +83,11 @@ img {
 ul {
   font-family: "Courier New";
 }
+
+.projects {
+  display: none;
+}
+
+.show {
+  display: block;
+}
