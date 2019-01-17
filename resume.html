@@ -4,12 +4,13 @@
   <meta charset="utf-8"/>
   <title>Esther J</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
     <nav>
-      <a href="index.html">HOME</a>
-      <a href="resume.html">RESUMÉ</a>
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resumé</a>
     </nav>
   </header>
   <div class="background">
@@ -20,47 +21,70 @@
       </div>
       <br>
       <div class="resumetext">
-        <h2>Experience</h2>
+        <h2>Projects</h2>
         <hr>
-        <div class="exp1">
-          <h4>Camp Counsellor for SAGA Day Camp</h4>
-          <h5>June 2014 – August 2015</h5>
-          <ul>
-            <li>A low cost Christian Day Camp for low income families in the Clarkson/Port Credit neighborhood</li>
-            <li>Supervising and leading a small group of children (Grades 1-6) through camp activities such as games, crafts, and skits</li>
-            <li>Being responsible for children during offsite trips</li>
-          </ul>
+        <div id="myBtnContainer">
+          <button class="btn" onclick="filterSelection('projects')"> Show all</button>
+          <button class="btn" onclick="filterSelection('python')"> Python</button>
+          <button class="btn" onclick="filterSelection('html/css/js')"> HTML, CSS and JavaScript</button>
+          <button class="btn" onclick="filterSelection('sql')"> SQL</button>
+          <button class="btn" onclick="filterSelection('c#')"> C#</button>
+          <button class="btn" onclick="filterSelection('c++')"> C++</button>
         </div>
         <br>
-        <div class="exp2">
-          <h4>Master’s Club Member for DECA Ontario</h4>
-          <h5>September 2015 – June 2016 </h5>
+        <div class="projects python c++ show">
+          <h4>Don't Sleep or I Yell (Python and Auduino)</h4>
+          <h5>January 2019 (Starterhacks 2019)</h5>
           <ul>
-            <li>DECA (Distributive Education Clubs of America) is an organization which provides students with an opportunity to learn about business through different competitions</li>
-            <li>Leading and training students for the DECA International Career and Development Conference</li>
+            <li>Designed a pen and computer program to stop a user from falling asleep in class</li>
+            <li>Utilized multi-threading and the Tkinter GUI for a Python computer app</li>
+            <li>Built a working pen prototype that interprets data from a gyroscope to detect and prevent sleep</li>
           </ul>
+          <br>
         </div>
-        <br>
-        <div class="exp3">
-          <h4>Growth Intern for 753 Group</h4>
-          <h5>August 2017</h5>
+        <div class="projects html/css/js show">
+          <h4>My Personal Website (HTML, CSS and JavaScript)</h4>
+          <h5>January 2019</h5>
           <ul>
-            <li>Developing and launching social media ad campaigns for new products of various e-commerce brands</li>
-            <li>Finding suitable products to source for e-commerce</li>
+            <li>Created this personal website with HTML, CSS and JavaScript</li>
           </ul>
+          <br>
         </div>
-        <br>
-        <div class="exp4">
-          <h4>Robotics Captain for FRC Team 6070</h4>
-          <h5>June 2016 – Present </h5>
+        <div class="projects c# show">
+          <h4>Space Pew Pew (C#)</h4>
+          <h5>November 2018 (GI Game Jam Fall 2018)</h5>
           <ul>
-            <li>FRC (First Robotics Competition) is a competition where high school students build robots to compete in a specific challenge each year</li>
-            <li>Maintaining good team relations and keeping everyone positive</li>
-            <li>Find sponsors and allocate the team’s $20,000 budget</li>
-            <li>Market the team through essays and videos to win awards</li>
+            <li>Designed and programmed a spaceship shooter game with the Unity game engine with a team of 4</li>
+            <li>Implemented shooting functions for the playable character</li>
           </ul>
+          <br>
         </div>
-        <br>
+        <div class="projects sql python show">
+          <h4>Logs Analysis Project (SQL and Python)</h4>
+          <h5>September 2018</h5>
+          <ul>
+            <li>Coded a reporting tool that analyzes and summarizes data from a large database</li>
+          </ul>
+          <br>
+        </div>
+        <div class="projects python show">
+          <h4>Favorite Movies Website (Python) </h4>
+          <h5>July 2018</h5>
+          <ul>
+            <li>Created a website that stored multimedia movie recommendations</li>
+            <li>Used classes and object-oriented programming</li>
+          </ul>
+          <br>
+        </div>
+        <div class="projects buisness show">
+          <h4>SHAD Entrepreneurial Project</h4>
+          <h5>July 2017</h5>
+          <ul>
+            <li>Worked with a team of 6 to design a personal modular heater that aims to reduce an individual’s heating bill and energy consumption</li>
+            <li>Created a business plan and financial forecasts for the company</li>
+          </ul>
+          <br>
+        </div>
       </div>
     </div>
   </div>
